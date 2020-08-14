@@ -1,0 +1,55 @@
+body{ 
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+table td, tr{
+    border: solid 2px black;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(174, 235, 133);
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.div{
+    background-color: teal;
+    border: solid 2px black;
+    margin-top:40vh;
+    border-radius: 8px;
+
+}
+#escrita{
+    border-radius: 10px;
+}
+
+button{
+    border-radius:8px;
+    background-color: rgb(65, 53, 145);
+    color: dodgerblue;
+}
+button:hover{
+    background-color: rgb(47, 38, 105);
+    transition: 0.3s;
+}
+td:hover{
+    background-color: rgb(127, 177, 93);
+
+}
+label{
+    font: 1.3em;
+    font-size: larger;
+}
